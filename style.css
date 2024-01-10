@@ -1,12 +1,10 @@
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-#info {
-  position: absolute;
-  top: 10px;
-  width: 100%;
-  text-align: center;
-  z-index: 100;
-  display: block;
-  color: white;
+body,
+html {
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
